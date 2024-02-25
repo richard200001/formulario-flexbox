@@ -1,0 +1,65 @@
+body{
+    background: #c7f7f7;
+}
+
+.flex-container{
+    display: flex;
+    background-color: #96c4c4;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 50px 50px;
+    flex-wrap: wrap;
+    flex:1;
+    box-shadow: 2px 4px 15px 0 black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.flex-container__form{
+  width: 100%;
+  min-width: 300px;
+  flex: 1;
+}
+
+
+
+.flex-container__form-input input{
+  width: 100%;
+  min-width: 300px;
+  outline: none;
+  margin: 7px auto;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #238888;
+}
+
+.flex-container__img{
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.flex-container__form-input input[type="submit"]{
+   background-color: #238888;
+   border: none;
+}
+
+.flex-container__form-input input[type="submit"]:hover{
+    background-color: rgb(82, 172, 160);
+}
+
+.flex-container__form-input input[type="submit"]:focus{
+    background-color: rgb(48, 153, 139);
+}
+
+.flex-container__form-input input[type="submit"]:active{
+    background: linear-gradient(to bottom, rgb(rgb(20, 138, 20), 26), #050);
+}
